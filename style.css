@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+* { /* Escopo Global */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: white;
+    
+}
+body {
+    background-image: linear-gradient(to right, rgba(8, 8, 8, 0.897), rgb(117, 116, 116) );
+}
+main {
+
+    background-color: rgba(190, 51, 51, 0.418);
+    width: 600px;
+    padding: 10px; /* Espaçamento */
+    margin: auto; /* Centraliza */
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.116); /* Shorthand */
+
+}
+h1 {
+    color: rgb(70, 152, 245);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(243, 9, 9, 0.849);
+}
+h2 {
+    color:rgb(9, 253, 200);
+    text-align: center;
+}
+p {
+    font-style: italic;
+    text-align: justify;
+}
